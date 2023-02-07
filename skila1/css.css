@@ -41,7 +41,7 @@ body{
     color: white;
 }
 *{
-    text-decoration: none;
+    /* text-decoration: none; */
     list-style: none;
     color: white;
     font-family: 'Montserrat', sans-serif;
