@@ -8,6 +8,10 @@
         display: none;
     }
 
+    .bur-but{
+        display: block;
+    }
+
     .covido{
         left: 15px;
     }
