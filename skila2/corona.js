@@ -1,57 +1,122 @@
-
-let a = -1200 ;
-
-let c = 1200;
-
- document.querySelector('.but2-right').addEventListener('click', () => {
-    a = a + 400 ;
-    if (a > 0 ) {
-        a = -800
-    }
-    console.log(a)
-    document.querySelector('.slide-line').style.left = a + 'px' ;
-})
- document.querySelector('.but2-left').addEventListener('click', () => {
-    a = a - 400 ;
-    if (a < -2400) {
-        a = -400
-    
-    }
-    console.log(a)
-    document.querySelector('.slide-line').style.left = a + 'px' ;
-})
+let winWid = window.innerWidth;
 
 
+if (winWid != 415){
+    let a = -1200 ;
 
-let sln1 = document.querySelector('.slide-line1');
+    let c = 1200;
 
+    document.querySelector('.but2-right').addEventListener('click', () => {
+        a = a + 400 ;
+        if (a > 0 ) {
+            a = -800
+        }
+        console.log(a)
+        document.querySelector('.slide-line').style.left = a + 'px' ;
+    })
+    document.querySelector('.but2-left').addEventListener('click', () => {
+        a = a - 400 ;
+        if (a < -2400) {
+            a = -400
+        
+        }
+        console.log(a)
+        document.querySelector('.slide-line').style.left = a + 'px' ;
+    })
 
 
 
-let b = 0 ;
-
-document.querySelector('.but1-right').disabled = true;
-document.querySelector('.but1-left').disabled = true;
+    let sln1 = document.querySelector('.slide-line1');
 
 
-document.querySelector('.but1-right').addEventListener('click', () => {
-    b = b + 1707 ;
-    if (b > 3414) {
-        b = 0
-    }
-    sln1.style.left = -b + 'px' ;
-    console.log(b)
-})
-document.querySelector('.but1-left').addEventListener('click', () => {
-    b = b - 1707 ;
-    if (b < 0) {
-        b = 3414
-    }
-    document.querySelector('.slide-line1').style.left = -b + 'px' ;
-})
+
+
+    let b = 0 ;
+
+    document.querySelector('.but1-right').disabled = true;
+    document.querySelector('.but1-left').disabled = true;
+
+
+    document.querySelector('.but1-right').addEventListener('click', () => {
+        b = b + 1707 ;
+        if (b > 3414) {
+            b = 0
+        }
+        sln1.style.left = -b + 'px' ;
+        console.log(b)
+    })
+    document.querySelector('.but1-left').addEventListener('click', () => {
+        b = b - 1707 ;
+        if (b < 0) {
+            b = 3414
+        }
+        document.querySelector('.slide-line1').style.left = -b + 'px' ;
+    })
+
+}
+
+else{
+    let a = -1065 ;
+
+    let c = 1065;
+
+    document.querySelector('.but2-right').addEventListener('click', () => {
+        a = a + 360 ;
+        if (a > 0 ) {
+            a = -1065
+        }
+        console.log(a)
+        document.querySelector('.slide-line').style.left = a + 'px' ;
+    })
+    document.querySelector('.but2-left').addEventListener('click', () => {
+        a = a - 360 ;
+        if (a < -2400) {
+            a = -400
+        
+        }
+        console.log(a)
+        document.querySelector('.slide-line').style.left = a + 'px' ;
+    })
+
+
+
+    let sln1 = document.querySelector('.slide-line1');
+
+
+
+
+    let b = 0 ;
+
+    document.querySelector('.but1-right').disabled = true;
+    document.querySelector('.but1-left').disabled = true;
+
+
+    document.querySelector('.but1-right').addEventListener('click', () => {
+        b = b + 790 ;
+        if (b > 1580) {
+            b = 0
+        }
+        sln1.style.left = -b + 'px' ;
+        console.log(b)
+    })
+    document.querySelector('.but1-left').addEventListener('click', () => {
+        b = b - 790 ;
+        if (b < 0) {
+            b = 1580
+        }
+        document.querySelector('.slide-line1').style.left = -b + 'px' ;
+    })
+}
+
+
+
+
+
+
 
 
 let d = 0;
+
 
 document.querySelector('.bur-but').addEventListener('click', () =>{
 
@@ -84,3 +149,12 @@ document.querySelector('.bur-but').addEventListener('click', () =>{
 
 })
 
+
+
+
+
+
+
+
+
+console.log(window.innerWidth);

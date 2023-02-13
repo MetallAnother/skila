@@ -1,7 +1,7 @@
 @media screen and (max-width: 500px){
     
     .navb{
-        width: 414px
+        width: 412px
     }
 
     .main-nav{
@@ -30,7 +30,7 @@
 
     .ab-corona{
         padding: 20px;
-        width: min(100%, 375px);
+        width: min(100%, 371px);
         margin: 0%;
     }
 
@@ -38,6 +38,10 @@
         left: -219px;
         width: 300px;
         padding-left: 80px;
+    }
+
+    .slide-line1{
+        width: 2000px;
     }
 
     .butons{
@@ -73,7 +77,7 @@
 
     .grupa2{
         display: flex;
-        width: min(100%, 400px);
+        width: min(100%, 385px);
         justify-content: space-evenly;
         margin: 5px;
     }
@@ -85,6 +89,7 @@
 
     .sheald p{
         width: 400px;
+        line-height: 30px;
     }
 
     .grupa2 a{
@@ -101,12 +106,23 @@
         margin-inline: auto;
     }
 
+
+
     .slide-line{
         left: -1065px;
     }
 
     .cart{
         width: 300px;
+    }
+
+    .cart h1{
+        width: 300px;
+    }
+
+    .cart p{
+        width: 300px;
+        line-height: 20px;
     }
 
     .slide-vizible{
@@ -167,5 +183,37 @@
         width: min(100%,320px);
         font-size: 15px;
         line-height: 28px;
+    }
+
+    .fot-cont{
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .fot-cont p{
+        font-size: 18px;
+    }
+
+    .footer hr{
+        width: 400px;
+        margin-top: 40px;
+    }
+
+    .about{
+        width: 409px;
+    }
+
+    .count{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .count img{
+        display: none;
+    }
+
+
+    .email-inp{
+        width: 300px;
     }
 }

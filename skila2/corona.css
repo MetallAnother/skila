@@ -641,3 +641,120 @@ background-color: rgb(236, 236, 236);}
     margin-top: 50px;
     color: #353d47;;
 }
+
+
+.email{
+    background-image: url(./img/ever_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: COVER;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.email button{
+    width: 350px;
+    height: 90px;
+    border-radius: 50px;
+    border: none;
+    background-color: #05254d;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .4s;
+    margin-bottom: 60px;
+}
+
+.email button:hover{
+    background-color: rgb(212, 27, 27);
+}
+
+.email-inp{
+    margin-top: 60px;
+    margin-bottom: 50px;
+    width:min(100%, 1000px);
+    height: 50px;
+    padding: 20px;
+    border-radius: 80px;
+    margin-inline: auto;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+    font-size: 17px;
+    color: white;
+    outline: 0;
+    outline-offset: 0;
+}
+
+.email-inp::placeholder{
+    color: white;
+}
+
+
+.footer{
+    background-color: black;
+    color: white;
+}
+
+.footer hr{
+    width:min(100%, 700px);
+    margin-inline: auto;
+}
+
+
+.fot-cont{
+    width: min(100%, 1100px);
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    margin-inline: auto;
+}
+
+.resour p{
+    line-height: 30px;
+    color: #979793;
+    transition: .2s;
+}
+
+.resour p:hover{
+    color: red;
+}
+
+.resour,
+.about,
+.contact,
+.count{
+    margin-top: 80px;
+}
+
+.fot-cont h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.about{
+    width: 240px;
+    line-height: 25px;
+}
+
+
+.loc,
+.cal,
+.ema{
+    display: flex;
+    margin-top: 10px;
+}
+
+.img{
+    width: 20px;
+    margin-right: 20px;
+}
+
+
+.rights{
+    font-size: 18px;
+    text-align: center;
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
