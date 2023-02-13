@@ -1,0 +1,167 @@
+@media screen and (max-width: 500px){
+    
+    .navb{
+        width: 414px
+    }
+
+    .main-nav{
+        display: none;
+    }
+
+    .covido{
+        left: 15px;
+    }
+
+    .serch{
+        display: none;
+    }
+
+    .log-in{
+        display: none;
+    }
+
+    .ab-corona img{
+        display: none;
+    }
+
+    .ab-corona{
+        padding: 20px;
+        width: min(100%, 375px);
+        margin: 0%;
+    }
+
+    .slider{
+        left: -219px;
+        width: 300px;
+        padding-left: 80px;
+    }
+
+    .butons{
+        flex-direction: column;
+    }
+
+    .butons a{
+        margin-top: 10px;
+    }
+
+    .cont h1{
+        font-size: 40px;
+
+    }
+
+    .ab-corona h1{
+        font-size: 25px;
+    }
+
+    .corona-what{
+        display: block;
+        width: min(100%, 400px);
+    }
+
+    .corona-what img{
+        display: none;
+    }
+
+    .corona-what h1{
+        font-size: 25px;
+    }
+
+
+    .grupa2{
+        display: flex;
+        width: min(100%, 400px);
+        justify-content: space-evenly;
+        margin: 5px;
+    }
+
+    .sheald h1{
+        font-size: 25px;
+        width: 400px;
+    }
+
+    .sheald p{
+        width: 400px;
+    }
+
+    .grupa2 a{
+        margin-inline: auto;
+    }
+
+    .sheald{
+        width: min(100%, 400px);
+        margin-inline: auto;
+    }
+
+    .slider-2{
+        width: min(100%, 400px);
+        margin-inline: auto;
+    }
+
+    .slide-line{
+        left: -1065px;
+    }
+
+    .cart{
+        width: 300px;
+    }
+
+    .slide-vizible{
+        width: min(100%,374px);
+    }
+
+    .corona-cases{
+        margin-inline: auto;
+        width: 380px;
+    }
+
+    .corona-cases h1{
+        font-size: 25px;
+    }
+
+    .corona-p{
+        width: 300px;
+        margin-inline: auto;
+        margin-top: 10px;
+    }
+
+
+    .cases{
+        display: block;
+    }
+
+    .case{
+        width: min(100%, 330px);
+        margin-bottom: 60px;
+    }
+
+    .case p{
+        width: min(100%,297px);
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+
+    .case-img{
+        width: min(100%, 350px);
+    }
+
+    .doctors-say h1{
+        font-size: 25px;
+    }
+
+    .doctor-cards{
+        display: block;
+        width: 360px;
+    }
+
+    .doctor-card{
+        margin-top: 65px;
+        width:min(100%, 360px);
+        margin-inline: auto;
+    }
+
+    .doctor-card p{
+        width: min(100%,320px);
+        font-size: 15px;
+        line-height: 28px;
+    }
+}
