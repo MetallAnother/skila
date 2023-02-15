@@ -193,6 +193,10 @@
         font-size: 18px;
     }
 
+    .footer{
+        width: 412px;
+    }
+
     .footer hr{
         width: 400px;
         margin-top: 40px;
