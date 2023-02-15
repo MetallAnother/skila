@@ -275,8 +275,9 @@ li{
     box-shadow: 3px 0 62px rgb(13 3 3 / 18%);;
     margin-inline: auto;
     position: relative;
-    bottom: 130px;
+    top: 230px;
     justify-content: space-between;
+    margin-bottom: 320px;
 }
 
 .ab-corona p{
@@ -335,7 +336,7 @@ li{
     height: 360px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .grupa2 h1{
@@ -372,11 +373,14 @@ li{
 }
 
 .corona-what{
+    position: relative;
+    top: 200px;
     display: flex;
     margin-inline: auto;
     justify-content: space-between;
     margin-bottom: 100px;
     width: 1300px;
+    margin-bottom: 350px;
 }
 
 
@@ -533,8 +537,10 @@ background-color: rgb(236, 236, 236);}
 
 
 .corona-cases{
+    position: relative;
+    top: 200px;
     text-align: center;
-    margin-bottom: 100px;
+    margin-bottom: 350px;
 }
 
 .corona-h1{
@@ -586,6 +592,9 @@ background-color: rgb(236, 236, 236);}
 
 .doctors-say{
     text-align: center;
+    position: relative;
+    top: 200px;
+    margin-bottom: 350px;
 }
 
 .doctor-h1{
@@ -757,4 +766,67 @@ background-color: rgb(236, 236, 236);}
     text-align: center;
     margin-top: 15px;
     padding-bottom: 15px;
+}
+
+
+
+.contacts{
+    position: relative;
+    top: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 350px;
+}
+
+.inputs h1{
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.inputs button{
+    width: 200px;
+    height: 76px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.name-inp,
+.phone-inp,
+.emails-inp{
+    width:min(100%, 512px);
+    height: 62px;
+    padding: 0px 20px 0px 20px;
+    color: #a3a3a2;
+    border: 2px  solid #a3a3a2;
+    margin-top: 20px;
+}
+
+.message-inp{
+    padding: 10px 20px 10px 20px;
+    width:min(100%, 512px);
+    height: 66px;
+    border: 2px  solid #a3a3a2;
+    margin-top: 20px;
+}
+
+.name-inp,
+.phone-inp,
+.emails-inp,
+.message-inp::placeholder{
+    color: #a3a3a2;
+}
+
+.gundam{
+    position: relative;
+    top: 30px;
+    height: 500px;
 }

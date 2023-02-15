@@ -1,7 +1,7 @@
 @media screen and (max-width: 500px){
     
     .navb{
-        width: 412px
+        width: 415px
     }
 
     .main-nav{
@@ -31,7 +31,6 @@
     .ab-corona{
         padding: 20px;
         width: min(100%, 371px);
-        margin: 0%;
     }
 
     .slider{
@@ -62,12 +61,12 @@
     }
 
     .corona-what{
-        display: block;
         width: min(100%, 400px);
+        flex-direction: column;
     }
 
     .corona-what img{
-        display: none;
+        width: 400px;
     }
 
     .corona-what h1{
@@ -174,7 +173,7 @@
     }
 
     .doctor-card{
-        margin-top: 65px;
+        margin-top: 75px;
         width:min(100%, 360px);
         margin-inline: auto;
     }
@@ -216,4 +215,22 @@
     .email-inp{
         width: 300px;
     }
+
+    .contacts{
+        flex-direction: column;
+    }
+
+    .name-inp,
+    .phone-inp,
+    .emails-inp,
+    .message-inp{
+        width: 350px;
+        margin-inline: auto;
+    }
+
+    .gundam{
+        width: 400px;
+        margin-left: 7px;
+    }
+
 }

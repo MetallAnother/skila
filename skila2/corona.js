@@ -121,7 +121,7 @@ let d = 0;
 document.querySelector('.bur-but').addEventListener('click', () =>{
 
     if(d == 0){
-        document.querySelector('.bur-men').style.opacity = '100';
+        document.querySelector('.bur-men').style.display = 'flex';
         document.querySelector('.bur-men').style.height = '400px';
         document.querySelector('.hr2').style.opacity = '0';
         document.querySelector('.hr1').style.transform = `rotate(${this.g = (this.g | 0) + 45}deg)`;
@@ -131,7 +131,7 @@ document.querySelector('.bur-but').addEventListener('click', () =>{
         d=1
     }
     else{
-        document.querySelector('.bur-men').style.opacity = '0';
+        document.querySelector('.bur-men').style.display = 'none';
         document.querySelector('.bur-men').style.height = '0px';
         document.querySelector('.hr2').style.opacity = '100';
         document.querySelector('.hr1').style.transform = `rotate(${this.h = (this.h | 0) + 0}deg)`;
