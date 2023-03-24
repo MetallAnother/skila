@@ -1,0 +1,240 @@
+@media screen and (max-width: 500px){
+    
+    .navb{
+        width: 415px
+    }
+
+    .main-nav{
+        display: none;
+    }
+
+    .bur-but{
+        display: block;
+    }
+
+    .covido{
+        left: 15px;
+    }
+
+    .serch{
+        display: none;
+    }
+
+    .log-in{
+        display: none;
+    }
+
+    .ab-corona img{
+        display: none;
+    }
+
+    .ab-corona{
+        padding: 20px;
+        width: min(100%, 371px);
+    }
+
+    .slider{
+        left: -219px;
+        width: 300px;
+        padding-left: 80px;
+    }
+
+    .slide-line1{
+        width: 2000px;
+    }
+
+    .butons{
+        flex-direction: column;
+    }
+
+    .butons a{
+        margin-top: 10px;
+    }
+
+    .cont h1{
+        font-size: 40px;
+
+    }
+
+    .ab-corona h1{
+        font-size: 25px;
+    }
+
+    .corona-what{
+        width: min(100%, 400px);
+        flex-direction: column;
+    }
+
+    .corona-what img{
+        width: 400px;
+    }
+
+    .corona-what h1{
+        font-size: 25px;
+    }
+
+
+    .grupa2{
+        display: flex;
+        width: min(100%, 385px);
+        justify-content: space-evenly;
+        margin: 5px;
+    }
+
+    .sheald h1{
+        font-size: 25px;
+        width: 400px;
+    }
+
+    .sheald p{
+        width: 400px;
+        line-height: 30px;
+    }
+
+    .grupa2 a{
+        margin-inline: auto;
+    }
+
+    .sheald{
+        width: min(100%, 400px);
+        margin-inline: auto;
+    }
+
+    .slider-2{
+        width: min(100%, 400px);
+        margin-inline: auto;
+    }
+
+
+
+    .slide-line{
+        left: -1065px;
+    }
+
+    .cart{
+        width: 300px;
+    }
+
+    .cart h1{
+        width: 300px;
+    }
+
+    .cart p{
+        width: 300px;
+        line-height: 20px;
+    }
+
+    .slide-vizible{
+        width: min(100%,374px);
+    }
+
+    .corona-cases{
+        margin-inline: auto;
+        width: 380px;
+    }
+
+    .corona-cases h1{
+        font-size: 25px;
+    }
+
+    .corona-p{
+        width: 300px;
+        margin-inline: auto;
+        margin-top: 10px;
+    }
+
+
+    .cases{
+        display: block;
+    }
+
+    .case{
+        width: min(100%, 330px);
+        margin-bottom: 60px;
+    }
+
+    .case p{
+        width: min(100%,297px);
+        font-size: 15px;
+        margin-bottom: 30px;
+    }
+
+    .case-img{
+        width: min(100%, 350px);
+    }
+
+    .doctors-say h1{
+        font-size: 25px;
+    }
+
+    .doctor-cards{
+        display: block;
+        width: 360px;
+    }
+
+    .doctor-card{
+        margin-top: 75px;
+        width:min(100%, 360px);
+        margin-inline: auto;
+    }
+
+    .doctor-card p{
+        width: min(100%,320px);
+        font-size: 15px;
+        line-height: 28px;
+    }
+
+    .fot-cont{
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .fot-cont p{
+        font-size: 18px;
+    }
+
+    .footer{
+        width: 412px;
+    }
+
+    .footer hr{
+        width: 400px;
+        margin-top: 40px;
+    }
+
+    .about{
+        width: 409px;
+    }
+
+    .count{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .count img{
+        display: none;
+    }
+
+
+    .email-inp{
+        width: 300px;
+    }
+
+    .contacts{
+        flex-direction: column;
+    }
+
+    .name-inp,
+    .phone-inp,
+    .emails-inp,
+    .message-inp{
+        width: 350px;
+        margin-inline: auto;
+    }
+
+    .gundam{
+        width: 400px;
+        margin-left: 7px;
+    }
+
+}

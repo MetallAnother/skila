@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(38, 131, 202);
+}
+
+.text-middle p{
+    width: 900px;
+    height: 100px;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 30px;
+}
+.text-middle{
+    display: flex;
+}
+
+h1{
+    color: aqua;
+}
+h2{
+    color: aqua;
+}
+
+ul{
+    color: white;
+}
+
+li{
+    color: white;
+}
+
+
+a{
+    color: rgb(211, 16, 16);
+    text-decoration: none;
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text2{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
